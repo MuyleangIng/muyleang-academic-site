@@ -35,7 +35,7 @@ export default function Contact() {
                 className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors"
               >
                 <Mail size={20} />
-                <span>muyleang.ing@gmail.com</span>
+                <span>muyleanging@gmail.com</span>
               </Link>
               <Link
                 href="https://www.linkedin.com/in/muyleang-ing-7977912a0/"
