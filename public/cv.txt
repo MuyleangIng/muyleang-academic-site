@@ -1,0 +1,69 @@
+MUYLEANG ING
+AI & Quantum Computing Researcher
+Busan, South Korea
+
+CONTACT
+Email: muyleang.ing@gmail.com
+GitHub: https://github.com/MuyleangIng
+LinkedIn: https://www.linkedin.com/in/muyleang-ing-7977912a0/
+Phone: +855 (Cambodia) | +82 (South Korea)
+
+EDUCATION
+Master of Science in AI Convergence
+Pukyong National University, Busan, South Korea
+2025 - Present
+
+Bachelor of Science in Computer Science
+Royal University of Phnom Penh, Cambodia
+2019 - 2023
+
+iSTAD IT Expert Training, Generation 1
+Cambodia
+2023 - 2024
+
+PROFESSIONAL EXPERIENCE
+Instructor and DevOps Engineer
+ISTAD, Cambodia
+2024 - 2025
+- Taught software development and DevOps practices
+- Implemented CI/CD pipelines and containerization solutions
+- Mentored students in cloud technologies and system administration
+
+Master's Research Student
+Pukyong National University - Quantum Computing Lab
+2025 - Present
+- Research on quantum compiler design
+- Quantum simulator development
+- Quantum machine learning optimization
+
+RESEARCH INTERESTS
+- Quantum Computing and Quantum Machine Learning
+- Quantum Compiler Design
+- Hardware-aware Quantum Optimization
+- Deep Learning and Neural Networks
+- Software Simulators
+
+PUBLICATIONS & PRESENTATIONS
+- "Resource-Efficient Simulation of Large Quantum Circuits Using Circuit Partitioning and Qubit Reuse"
+  ICCE Asia 2025, Busan, South Korea
+
+- "A Resource-Efficient Quantum-Classical Model for Protein-Ligand Binding Affinity Prediction"
+  (Under Review)
+
+TECHNICAL SKILLS
+Backend Development: Spring Boot, Spring Microservices, OAuth2, Keycloak, Node.js, Next.js, TypeScript, React
+Mobile & Desktop: Flutter, Swift, Electron
+Programming Languages: Go, C++, Python, Java
+DevOps & Infrastructure: Docker, Kubernetes, CI/CD, NPM, PIP, Gradle, Brew
+Databases: PostgreSQL, Oracle
+Quantum Computing: Quantum Simulators, Quantum Machine Learning
+
+LANGUAGES
+Khmer (Native)
+English (Fluent)
+Korean (Intermediate)
+
+REFERENCES
+Available upon request
+
+Last Updated: February 2025
