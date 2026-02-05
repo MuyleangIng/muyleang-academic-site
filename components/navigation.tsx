@@ -46,13 +46,13 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
 
   return (
     <nav className="bg-secondary/50 border-b border-border sticky top-0 z-40">
-      <div className="max-w-6xl mx-auto px-4 py-4">
-        <div className="flex gap-6 overflow-x-auto">
+      <div className="max-w-6xl mx-auto px-4 py-3 md:py-4">
+        <div className="flex gap-2 md:gap-6 overflow-x-auto scrollbar-hide">
           {sections.map((section) => (
             <button
               key={section.id}
               onClick={() => handleClick(section.id)}
-              className={`whitespace-nowrap text-sm font-medium transition-colors pb-2 border-b-2 ${
+              className={`whitespace-nowrap text-xs md:text-sm font-medium transition-colors pb-2 border-b-2 px-1 md:px-0 ${
                 activeSection === section.id
                   ? 'border-accent text-accent'
                   : 'border-transparent text-muted-foreground hover:text-foreground'

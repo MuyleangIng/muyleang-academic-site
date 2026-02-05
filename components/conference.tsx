@@ -15,20 +15,20 @@ export default function Conference() {
   ]
 
   return (
-    <section id="conference" className="py-20 px-4 bg-background">
+    <section id="conference" className="py-16 md:py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-accent mb-12">Conference & Publications</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-accent mb-8 md:mb-12">Conference & Publications</h2>
         
-        <div className="space-y-6">
+        <div className="space-y-4 md:space-y-6">
           {conferences.map((conf, index) => (
-            <div key={index} className="bg-card rounded-lg p-8 shadow-sm border border-border hover:border-accent/50 transition-colors">
-              <h3 className="text-xl font-bold text-foreground mb-3">
+            <div key={index} className="bg-card rounded-lg p-4 md:p-8 shadow-sm border border-border hover:border-accent/50 transition-colors">
+              <h3 className="text-base md:text-xl font-bold text-foreground mb-2 md:mb-3 leading-tight">
                 {conf.title}
               </h3>
-              <p className="text-muted-foreground mb-3">
+              <p className="text-xs md:text-sm text-muted-foreground mb-3">
                 {conf.authors}
               </p>
-              <div className="flex flex-wrap gap-4 text-sm">
+              <div className="flex flex-col md:flex-row md:flex-wrap gap-2 md:gap-4 text-xs md:text-sm">
                 <span className="text-accent font-medium">{conf.event}</span>
                 <span className="text-muted-foreground">{conf.location}</span>
               </div>

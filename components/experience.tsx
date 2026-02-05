@@ -18,25 +18,30 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-20 px-4 bg-secondary/30">
+    <section id="experience" className="py-16 md:py-20 px-4 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-accent mb-12">Experience</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-accent mb-8 md:mb-12">
+          Experience
+        </h2>
 
-        <div className="space-y-10">
+        <div className="space-y-6 md:space-y-8">
           {experiences.map((exp, index) => (
-            <div key={index} className="flex gap-6">
+            <div key={index} className="flex gap-4 md:gap-6">
               {/* Timeline */}
               <div className="flex flex-col items-center">
-                <div className="w-4 h-4 bg-accent rounded-full mt-2"></div>
+                <div className="w-3 md:w-4 h-3 md:h-4 bg-accent rounded-full mt-2"></div>
                 {index < experiences.length - 1 && (
-                  <div className="w-1 bg-accent/30 flex-1 my-2 min-h-[120px]"></div>
+                  <div className="w-0.5 md:w-1 bg-accent/30 flex-1 my-2 min-h-[100px]"></div>
                 )}
               </div>
 
               {/* Content */}
-              <div className="pb-8 flex-1">
-                <span className="text-accent font-bold">{exp.year}</span>
-                <h3 className="text-2xl font-bold text-foreground mt-1">
+              <div className="pb-6 md:pb-8 flex-1">
+                <span className="text-xs md:text-sm text-accent font-bold">
+                  {exp.year}
+                </span>
+
+                <h3 className="text-lg md:text-2xl font-bold text-foreground mt-1">
                   {exp.title}
                 </h3>
 
@@ -45,15 +50,17 @@ export default function Experience() {
                     href={exp.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-lg text-accent underline underline-offset-4"
+                    className="text-base md:text-lg text-accent underline underline-offset-4"
                   >
                     {exp.organization}
                   </a>
                 ) : (
-                  <p className="text-lg text-accent">{exp.organization}</p>
+                  <p className="text-base md:text-lg text-accent">
+                    {exp.organization}
+                  </p>
                 )}
 
-                <p className="text-muted-foreground leading-relaxed mt-2">
+                <p className="text-xs md:text-sm text-muted-foreground leading-relaxed mt-2">
                   {exp.description}
                 </p>
               </div>
